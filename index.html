@@ -7,162 +7,157 @@
 <html>
 
 <head>
-	<title>Mkdad Mahfoud | Back-End Software Engineer</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <title>Mkdad Mahfoud | Software Developer</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
 <body class="is-preload">
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-		<!-- Header -->
-		<header id="header">
-			<div class="content">
-				<div class="inner">
-					<h1>Mkdad Mahfoud</h1>
-					<strong>Back-End Software Engineer</strong>
-					<p>
-						<a href="https://github.com/mekdad-dot" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-						&nbsp;•&nbsp;
-						<a href="https://www.linkedin.com/in/mkdad-mahfoud-1046a71b9/" target="_blank"><i
-								class="fab fa-linkedin"></i> LinkedIn</a>
-					</p>
-				</div>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#work">Projects</a></li>
-					<li><a href="#about">About Me</a></li>
-				</ul>
-			</nav>
-		</header>
+    <!-- Header -->
+    <header id="header">
+      <div class="content">
+        <div class="inner">
+          <h1>Mkdad Mahfoud</h1>
+          <strong>Software Developer</strong>
+          <p>
+            Dubai, UAE ·
+            <a href="tel:+971505228426">+971 50 522 8426</a> ·
+            <a href="mailto:mkdad.k.mahfoud@gmail.com">mkdad.k.mahfoud@gmail.com</a>
+          </p>
+          <p>
+            <a href="https://github.com/mekdad-dot" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            &nbsp;•&nbsp;
+            <a href="https://www.linkedin.com/in/mkdad-mahfoud-1046a71b9/" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            &nbsp;•&nbsp;
+            <a href="https://mekdad-dot.github.io/mekdad-dot/" target="_blank">
+              <i class="fas fa-globe"></i> Portfolio
+            </a>
+          </p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#work">Experience</a></li>
+          <li><a href="#about">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
 
-		<!-- Main -->
-		<div id="main">
+    <!-- Main -->
+    <div id="main">
 
-			<!-- Projects -->
-			<article id="work">
-				<h2 class="major">Projects</h2>
+      <!-- Experience / Resume -->
+      <article id="work">
+        <h2 class="major">Professional Experience</h2>
 
-				<!-- GRC Zero – Risk Management System -->
-				<h3>GRC Zero – Risk Management System</h3>
-				<span class="image main"><img src="images/grc.jpg" alt="GRC Zero – Risk Management System" /></span>
-				<p><strong>Stack:</strong> Java, Spring Boot, Docker, Azure DevOps CI/CD, On-Prem RDBMS •
-					<strong>Architecture:</strong> Monolithic (layered)
-				</p>
-				<p>
-					Governance, Risk & Compliance (GRC) platform to register risks, map controls, track mitigation
-					actions,
-					manage incidents, and generate governance/compliance reports. Built as a single deployable on-prem
-					to match team experience and security constraints.
-				</p>
-				<p><strong>My Role:</strong> Back-end development end-to-end; defined module boundaries (Risk / Controls
-					/ Incidents / Reporting);
-					implemented RBAC & audit logging; scheduled jobs; performance profiling (memory & concurrency); code
-					reviews (including for teammates senior to me).
-				</p>
-				<p><strong>Why Monolith:</strong> Faster delivery/on-prem simplicity for the team; internal module
-					boundaries kept loose coupling for a future split if needed.</p>
-				<p><strong>Impact:</strong> Stable adoption by risk/compliance teams; reduced manual reporting time;
-					passed internal security audits with zero critical issues.</p>
-				<p class="small">Note: Company source code is private.</p>
+        <!-- NGI -->
+        <h3>Backend Software Engineer</h3>
+        <p><em>National General Insurance PJSC &mdash; Dubai, UAE · 05/2024 &ndash; Present</em></p>
+        <ul>
+          <li>Designed and developed the entire backend of an enterprise-grade Risk Management System using Spring Boot and Oracle.</li>
+          <li>Built and maintained Next.js / TypeScript front-end modules for dashboards and reporting interfaces.</li>
+          <li>Managed on-premises deployment and CI/CD pipelines using Azure DevOps, ensuring smooth version releases.</li>
+          <li>Collaborated on additional .NET-based applications, contributing to backend logic and database optimization.</li>
+        </ul>
 
-				<!-- Teams Recording Bot -->
-				<h3>Teams Recording Bot <span class="small">(Contributor)</span></h3>
-				<span class="image main"><img src="images/teams-bot.jpg" alt="Teams Recording Bot" /></span>
-				<p><strong>Stack:</strong> C#, .NET, Azure (AKS, Blob, Service Bus/Event Grid, Key Vault, App Insights),
-					Docker, Kubernetes</p>
-				<p>
-					Cloud-native bot that records Microsoft Teams/ACS meetings, stores media reliably, and runs
-					post-processing
-					(transcoding, clipping, thumbnails) with client-specific options.
-				</p>
-				<p><strong>My Contributions:</strong> Implemented parts of the recorder/ingest pipeline; added
-					queue-backed buffering
-					to avoid data loss under spikes; optimized consumer writes to Blob Storage; improved observability &
-					retry/backoff;
-					assisted with Azure DevOps pipelines and AKS rollouts.
-				</p>
-				<p><strong>Impact:</strong> Lower failure/retry rates at peak; faster processing cycles; more stable
-					SLAs.</p>
+        <!-- Tech Unicorn -->
+        <h3>.NET Software Developer</h3>
+        <p><em>Tech Unicorn &mdash; Dubai, UAE · 01/2023 &ndash; 05/2024</em></p>
+        <ul>
+          <li>Built and deployed enterprise web apps and dashboards using ASP.NET Core, Entity Framework, and Azure services.</li>
+          <li>Designed and maintained microservice-based and monolithic systems hosted on Azure Kubernetes Service (AKS) and App Services.</li>
+          <li>Integrated solutions with Azure Active Directory and Key Vault for secure authentication and secret management.</li>
+          <li>Automated CI/CD using Azure DevOps Pipelines, improving delivery speed and deployment consistency.</li>
+          <li>Contributed to a Microsoft Teams Recording Bot and a DIFC Court Management System to streamline internal operations.</li>
+          <li>Actively utilized Azure Functions, ACR, and other Azure services to build scalable, cloud-native components.</li>
+        </ul>
 
-				<!-- Court Management System -->
-				<h3>Court Management System <span class="small">(Contributor)</span></h3>
-				<span class="image main"><img src="images/court.jpg" alt="Court Management System" /></span>
-				<p><strong>Stack:</strong> ASP.NET Core, SQL Server, Redis, gRPC</p>
-				<p>
-					Judicial case management platform for case registration, hearing scheduling, document generation,
-					and status tracking with compliance requirements.
-				</p>
-				<p><strong>My Contributions:</strong> Built/maintained APIs for case workflows and scheduling; added
-					Redis caching; integrated gRPC
-					for fast internal calls; optimized SQL queries; strengthened RBAC and audit trails.
-				</p>
-				<p><strong>Impact:</strong> Reduced case search time; lowered DB load via caching; improved reliability
-					of service-to-service communication.</p>
+        <h2 class="major">Education</h2>
+        <h3>Bachelor of Science, Computer Science</h3>
+        <p><em>Jamia Hamdard University &mdash; New Delhi, India · 2018 &ndash; 2022</em></p>
 
-				<p class="small">More public code on my <a href="https://github.com/mekdad-dot"
-						target="_blank">GitHub</a>.</p>
-			</article>
+        <h2 class="major">Languages</h2>
+        <ul>
+          <li>Arabic: Native</li>
+          <li>English: Fluent</li>
+        </ul>
+      </article>
 
-			<!-- About -->
-			<article id="about">
-				<h2 class="major">About Me</h2>
-				<p>
-					I’m a Back-End Software Engineer with practical experience in both <strong>.NET (C#)</strong> and
-					<strong>Java Spring Boot</strong>. I’ve worked on on-prem enterprise systems and cloud-native
-					services,
-					with a focus on clean architecture, performance, and reliability.
-				</p>
-				<p><strong>Strengths from real projects:</strong> preventing data loss with queue-backed ingestion,
-					effective concurrency & multithreading, profiling hot paths and fixing memory pressure (streaming
-					exports, batching),
-					enforcing code quality via reviews, and shipping via Docker + Azure DevOps pipelines.
-				</p>
-				<p><strong>Core Skills:</strong> C#, Java, .NET Core, ASP.NET, Spring Boot, Azure DevOps, Docker,
-					Kubernetes, SQL Server, Oracle, Redis, REST APIs, gRPC, CI/CD, Design Patterns, Multithreading.
-				</p>
-				<p><strong>Additional Information:</strong> I have completed the <strong>AZ-204: Developing Solutions
-						for Microsoft Azure</strong> certification.
-					I am a native <strong>Arabic</strong> speaker and fluent in <strong>English</strong>.
-				</p>
-				<p><strong>Goal:</strong> Grow into a <strong>Software Architect</strong> role and lead design of
-					high-availability systems.</p>
-				<span class="image main"><img src="images/profile.jpg" alt="Profile photo" /></span>
-			</article>
+      <!-- About / Skills -->
+      <article id="about">
+        <h2 class="major">About Me</h2>
+        <p>
+          Passionate Software Engineer with 3+ years of experience in developing web applications and backend systems.
+          Skilled at writing clear, maintainable code and troubleshooting production issues. Comfortable working with
+          both small and large teams across multiple projects and companies, and able to work independently in both
+          remote and in-office environments.
+        </p>
 
-		</div>
+        <h3>Technical Skills</h3>
+        <p><strong>Languages:</strong> C#, Java, TypeScript, JavaScript, SQL</p>
+        <p><strong>Frameworks &amp; Platforms:</strong> ASP.NET Core, .NET Framework, Spring Boot</p>
+        <p><strong>Frontend &amp; Web:</strong> Next.js</p>
+        <p><strong>Cloud &amp; DevOps:</strong> Microsoft Azure, AKS, ACR, Azure Functions, App Service, Azure DevOps, Docker, Git, CI/CD</p>
+        <p><strong>Databases:</strong> Microsoft SQL Server (MSSQL), Oracle</p>
+        <p><strong>Architecture &amp; Patterns:</strong> Clean Architecture, Microservices, Repository Pattern, Dependency Injection, RESTful API Design</p>
+        <p><strong>Deployment Environments:</strong> Azure Cloud, Containerized Microservices, On-Premises Servers</p>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<ul class="icons">
-				<li><a href="https://github.com/mekdad-dot" target="_blank" class="icon brands fa-github"><span
-							class="label">GitHub</span></a></li>
-				<li><a href="mailto:mkdad.k.mahfoud@gmail.com" class="icon fas fa-envelope"><span
-							class="label">Email</span></a></li>
-				<li><a href="https://www.linkedin.com/in/mkdad-mahfoud-1046a71b9/" target="_blank"
-						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-			</ul>
-		</footer>
+        <h3>Profile</h3>
+        <p>
+          I focus on backend engineering, reliability, and clean architecture, and I enjoy working on systems that need
+          solid performance, good observability, and smooth CI/CD. My goal is to keep growing towards designing and
+          owning complex, enterprise-scale systems.
+        </p>
 
-	</div>
+        <span class="image main"><img src="images/profile.jpg" alt="Profile photo" /></span>
+      </article>
 
-	<!-- BG -->
-	<div id="bg"></div>
+    </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <li>
+          <a href="https://github.com/mekdad-dot" target="_blank" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:mkdad.k.mahfoud@gmail.com" class="icon fas fa-envelope">
+            <span class="label">Email</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/mkdad-mahfoud-1046a71b9/" target="_blank"
+             class="icon brands fa-linkedin">
+            <span class="label">LinkedIn</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+  </div>
+
+  <!-- BG -->
+  <div id="bg"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
